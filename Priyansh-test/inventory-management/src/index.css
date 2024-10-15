@@ -1,0 +1,23 @@
+body {
+  flex-direction: column; 
+  overflow-y: auto; 
+}
+
+
+body::-webkit-scrollbar {
+  width: 8px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #646cff;
+  border-radius: 10px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #535bf2; 
+}

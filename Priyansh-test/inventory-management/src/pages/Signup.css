@@ -1,0 +1,56 @@
+/* Signup form container styling */
+.signup {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+  }
+  
+
+  .signup input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s;
+  }
+  
+
+  .signup input:focus {
+    border: 1px solid #4e54c8;
+    outline: none;
+  }
+  
+
+  .signup .signup-btn {
+    width: 100%;
+    padding: 10px;
+    background: #4e54c8;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+
+  .signup .signup-btn:hover {
+    background: #3b4292;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
